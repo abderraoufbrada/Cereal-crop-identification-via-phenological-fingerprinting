@@ -15,7 +15,7 @@ This project detects cereal-like vegetation by comparing the **growth pattern (p
 4. A **Random Forest** model scores how similar each patch is to the reference (1 = similar, 0 = different).
 5. The result is a color-coded grid map with the NDVI curve of every patch.
 
-![Workflow](images/workflow.png)
+![Workflow](2.png)
 <!-- TODO: add the "Project idea" slide as images/workflow.png -->
 
 ## 🛰️ What is NDVI?
@@ -52,7 +52,7 @@ Code: `src/features.py`
 - Mean NDVI is computed per patch and per date (scale = 10 m).
 - Script: `gee/02_grid_patch_ndvi.js`
 
-![Grid](images/grid_division.png)
+![Grid](6.png)
 <!-- TODO: add the target polygon + grid screenshot -->
 
 ### 4. Random Forest similarity scoring (Python)
