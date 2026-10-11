@@ -2,7 +2,7 @@
 
 **A comparative NDVI time-series analysis using Google Earth Engine, Python and Random Forest.**
 
-![Cover](images/cover.png)
+![Cover](1.png)
 <!-- TODO: add the cover slide as images/cover.png -->
 
 ## 📌 Overview
